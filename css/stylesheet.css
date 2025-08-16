@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(238, 238, 238);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-name, .main-menu {
+    color: rgb(27, 27, 27);
+    font-size: 1.6em;
+}
+
+#header-name {
+    font-size: 2.5em;
+    margin: 15px 0;
+}
+
+.main-menu {
+    margin: 0;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    border: 1px groove rgb(212, 212, 212);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu > li{
+    background-image: linear-gradient(to top, rgb(171, 171, 171), rgb(236, 236, 236));
+    width: 100px;
+    list-style-type: none;
+    text-align: center;
+    
+}
+.main-menu > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-menu > li:hover{
+    background-image: linear-gradient(to top, rgb(135, 133, 133), rgb(213, 213, 213));
+}
+
+.box-item {
+    margin-top: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 600px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(234, 234, 234);
+    border: 3px outset rgb(212, 212, 212);
+}
+.box-img > img{
+    width: 90%;
+    padding: 5% 5% 0 5%;
+}
+
+.box-text {
+    padding: 0.5% 1% 3% 1%;
+    text-align: center;
+}
+.box-text > span {
+    font-size: 18px;
+}
+.box-text > div {
+    padding-top: 5px;
+}
+.selected-button {
+    background-image: linear-gradient(to top, rgb(236, 236, 236), rgb(171, 171, 171));
+}
+.box-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+@media (max-width: 600px) { 
+    .box-item {
+        height: 450px;
+        width: 100vw;
+    }
+    .box-text {
+        padding: 0 1% 20% 1%;
+        text-align: center;
+    }
+    .box-text > span {
+        font-size: 28px;
+    }
+    .box-text > div {
+        padding-top: 8vw;
+    }
+}
