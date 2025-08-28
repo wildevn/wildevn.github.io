@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Portfolio</title>
-    <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "lemxr0f0ba");
-        </script>
 </head>
+
 <body class="bg-[#09090A] ">
     <!--<h1 class="text-5xl text-center  py-5 bg-indigo-500">Portfolio</h1>-->
     <nav class="fixed top-0 w-screen h-14 bg-[#121214] border-b border-[#29292E] flex items-center justify-center">
-        <ul class="h-full w-full text-[#F7F7FA] flex shrink text-center min-[500px]:text-xl text-sm text-nowrap">
+        <ul class="h-full w-full text-[#F7F7FA] flex shrink text-center min-[500px]:text-base text-sm text-nowrap">
             <li class="px-5 max-[450px]:px-2 py-2 m-auto text-[#905CF6] hover:text-[#905CF6]">
                 <a href="#home">Home</a>
             </li>
             <li class="px-5 max-[450px]:px-2 py-2 m-auto hover:text-[#905CF6]">
-            <a href="#aboutMe">About me</a>
+                <a href="#aboutMe">About me</a>
             </li>
             <li class="px-5 max-[450px]:px-2 py-2 m-auto hover:text-[#905CF6]">
                 <a href="#skills">Skills</a>
@@ -29,127 +24,274 @@
             <li class="px-5 max-[450px]:px-2 py-2 m-auto hover:text-[#905CF6]">
                 <a href="#projects">Projects</a>
             </li>
-            <li class="px-5 max-[450px]:px-2 py-2 m-auto hover:text-[#905CF6]">
+            <!-- <li class="px-5 max-[450px]:px-2 py-2 m-auto hover:text-[#905CF6]">
                 <a href="#contactMe">Contact me</a>
-            </li>
+            </li> -->
         </ul>
     </nav>
+
     <main>
         <div class="absolute top-0" id="home"></div>
         <section>
-            <div class="h-[100vh] w-full text-white flex flex-wrap items-center justify-center gap-10 mt-14 bg-[url('imgs/bio_background.jpg')] bg-cover">
+            <div
+                class="h-[100vh] w-full text-white flex flex-wrap items-center justify-center gap-10 mt-14 bg-[url('imgs/bio_background.jpg')] bg-cover">
                 <div class="flex w-[200px] h-[200px]">
-                    <img src="./imgs/photo.jpg" alt="wilson's photo" height="200" width="200" class="rounded-full border-2 border-[#905CF6]">
+                    <img src="./imgs/photo.jpg" alt="wilson's photo" height="200" width="200"
+                        class="rounded-full border-2 border-[#905CF6]">
                 </div>
                 <div class="flex flex-col items-center justify-center w-96 max-[400px]:w-72">
                     <p class="text-4xl">
                         Hi, I'm <strong class="text-[#905CF6]">Wilson Eduardo</strong>
                     </p>
-                    <p class="text-3xl">Front-end developer</p>
+                    <p class="text-3xl">Fullstack web-developer</p>
                 </div>
                 <div class="w-full">
                     <div class="flex gap-2 ml-10">
                         <a href="https://github.com/wildevn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" fill="#FFF"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                                    fill="#FFF" />
+                            </svg>
                         </a>
                         <a href="https://www.linkedin.com/in/wilson-eduardo-fantucci-diniz-de-almeida-b1254772/">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
-                                <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M41,4h-32c-2.76,0 -5,2.24 -5,5v32c0,2.76 2.24,5 5,5h32c2.76,0 5,-2.24 5,-5v-32c0,-2.76 -2.24,-5 -5,-5zM17,20v19h-6v-19zM11,14.47c0,-1.4 1.2,-2.47 3,-2.47c1.8,0 2.93,1.07 3,2.47c0,1.4 -1.12,2.53 -3,2.53c-1.8,0 -3,-1.13 -3,-2.53zM39,39h-6c0,0 0,-9.26 0,-10c0,-2 -1,-4 -3.5,-4.04h-0.08c-2.42,0 -3.42,2.06 -3.42,4.04c0,0.91 0,10 0,10h-6v-19h6v2.56c0,0 1.93,-2.56 5.81,-2.56c3.97,0 7.19,2.73 7.19,8.26z"></path></g></g>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                                viewBox="0,0,256,256">
+                                <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(5.12,5.12)">
+                                        <path
+                                            d="M41,4h-32c-2.76,0 -5,2.24 -5,5v32c0,2.76 2.24,5 5,5h32c2.76,0 5,-2.24 5,-5v-32c0,-2.76 -2.24,-5 -5,-5zM17,20v19h-6v-19zM11,14.47c0,-1.4 1.2,-2.47 3,-2.47c1.8,0 2.93,1.07 3,2.47c0,1.4 -1.12,2.53 -3,2.53c-1.8,0 -3,-1.13 -3,-2.53zM39,39h-6c0,0 0,-9.26 0,-10c0,-2 -1,-4 -3.5,-4.04h-0.08c-2.42,0 -3.42,2.06 -3.42,4.04c0,0.91 0,10 0,10h-6v-19h6v2.56c0,0 1.93,-2.56 5.81,-2.56c3.97,0 7.19,2.73 7.19,8.26z">
+                                        </path>
+                                    </g>
+                                </g>
                             </svg>
                         </a>
                         <a href="https://wa.me/5567999731999">
-                            <svg fill="#ffffff" height="30px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="XMLID_468_"> <path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156 c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687 c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887 c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153 c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348 c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802 c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922 c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0 c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458 C233.168,179.508,230.845,178.393,227.904,176.981z"></path> <path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716 c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396 c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188 l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677 c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867 C276.546,215.678,222.799,268.994,156.734,268.994z"></path> </g> </g></svg>
+                            <svg fill="#ffffff" height="30px" width="30px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 308 308" xml:space="preserve" stroke="#ffffff">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g id="XMLID_468_">
+                                        <path id="XMLID_469_"
+                                            d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156 c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687 c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887 c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153 c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348 c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802 c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922 c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0 c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458 C233.168,179.508,230.845,178.393,227.904,176.981z">
+                                        </path>
+                                        <path id="XMLID_470_"
+                                            d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716 c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396 c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188 l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677 c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867 C276.546,215.678,222.799,268.994,156.734,268.994z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
                         </a>
                         <a href="mailto:wiledu@hotmail.com">
-                            <svg height="30px" width="30px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#ffffff;} </style> <g> <path class="st0" d="M510.678,112.275c-2.308-11.626-7.463-22.265-14.662-31.054c-1.518-1.915-3.104-3.63-4.823-5.345 c-12.755-12.818-30.657-20.814-50.214-20.814H71.021c-19.557,0-37.395,7.996-50.21,20.814c-1.715,1.715-3.301,3.43-4.823,5.345 C8.785,90.009,3.63,100.649,1.386,112.275C0.464,116.762,0,121.399,0,126.087V385.92c0,9.968,2.114,19.55,5.884,28.203 c3.497,8.26,8.653,15.734,14.926,22.001c1.59,1.586,3.169,3.044,4.892,4.494c12.286,10.175,28.145,16.32,45.319,16.32h369.958 c17.18,0,33.108-6.145,45.323-16.384c1.718-1.386,3.305-2.844,4.891-4.43c6.27-6.267,11.425-13.741,14.994-22.001v-0.064 c3.769-8.653,5.812-18.171,5.812-28.138V126.087C512,121.399,511.543,116.762,510.678,112.275z M46.509,101.571 c6.345-6.338,14.866-10.175,24.512-10.175h369.958c9.646,0,18.242,3.837,24.512,10.175c1.122,1.129,2.179,2.387,3.112,3.637 L274.696,274.203c-5.348,4.687-11.954,7.002-18.696,7.002c-6.674,0-13.276-2.315-18.695-7.002L43.472,105.136 C44.33,103.886,45.387,102.7,46.509,101.571z M36.334,385.92V142.735L176.658,265.15L36.405,387.435 C36.334,386.971,36.334,386.449,36.334,385.92z M440.979,420.597H71.021c-6.281,0-12.158-1.651-17.174-4.552l147.978-128.959 l13.815,12.018c11.561,10.046,26.028,15.134,40.36,15.134c14.406,0,28.872-5.088,40.432-15.134l13.808-12.018l147.92,128.959 C453.137,418.946,447.26,420.597,440.979,420.597z M475.666,385.92c0,0.529,0,1.051-0.068,1.515L335.346,265.221L475.666,142.8 V385.92z"></path> </g> </g></svg>
+                            <svg height="30px" width="30px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"
+                                fill="#ffffff" stroke="#ffffff">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <style type="text/css">
+                                        .st0 {
+                                            fill: #ffffff;
+                                        }
+                                    </style>
+                                    <g>
+                                        <path class="st0"
+                                            d="M510.678,112.275c-2.308-11.626-7.463-22.265-14.662-31.054c-1.518-1.915-3.104-3.63-4.823-5.345 c-12.755-12.818-30.657-20.814-50.214-20.814H71.021c-19.557,0-37.395,7.996-50.21,20.814c-1.715,1.715-3.301,3.43-4.823,5.345 C8.785,90.009,3.63,100.649,1.386,112.275C0.464,116.762,0,121.399,0,126.087V385.92c0,9.968,2.114,19.55,5.884,28.203 c3.497,8.26,8.653,15.734,14.926,22.001c1.59,1.586,3.169,3.044,4.892,4.494c12.286,10.175,28.145,16.32,45.319,16.32h369.958 c17.18,0,33.108-6.145,45.323-16.384c1.718-1.386,3.305-2.844,4.891-4.43c6.27-6.267,11.425-13.741,14.994-22.001v-0.064 c3.769-8.653,5.812-18.171,5.812-28.138V126.087C512,121.399,511.543,116.762,510.678,112.275z M46.509,101.571 c6.345-6.338,14.866-10.175,24.512-10.175h369.958c9.646,0,18.242,3.837,24.512,10.175c1.122,1.129,2.179,2.387,3.112,3.637 L274.696,274.203c-5.348,4.687-11.954,7.002-18.696,7.002c-6.674,0-13.276-2.315-18.695-7.002L43.472,105.136 C44.33,103.886,45.387,102.7,46.509,101.571z M36.334,385.92V142.735L176.658,265.15L36.405,387.435 C36.334,386.971,36.334,386.449,36.334,385.92z M440.979,420.597H71.021c-6.281,0-12.158-1.651-17.174-4.552l147.978-128.959 l13.815,12.018c11.561,10.046,26.028,15.134,40.36,15.134c14.406,0,28.872-5.088,40.432-15.134l13.808-12.018l147.92,128.959 C453.137,418.946,447.26,420.597,440.979,420.597z M475.666,385.92c0,0.529,0,1.051-0.068,1.515L335.346,265.221L475.666,142.8 V385.92z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
                         </a>
-                        
                     </div>
                     <div class="h-auto w-full flex justify-center">
                         <a class="flex" href="#aboutMe">
-                            <svg class="text-center" width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.25C12.4142 3.25 12.75 3.58579 12.75 4L12.75 18.1893L17.4697 13.4697C17.7626 13.1768 18.2374 13.1768 18.5303 13.4697C18.8232 13.7626 18.8232 14.2374 18.5303 14.5303L12.5303 20.5303C12.3897 20.671 12.1989 20.75 12 20.75C11.8011 20.75 11.6103 20.671 11.4697 20.5303L5.46967 14.5303C5.17678 14.2374 5.17678 13.7626 5.46967 13.4697C5.76256 13.1768 6.23744 13.1768 6.53033 13.4697L11.25 18.1893L11.25 4C11.25 3.58579 11.5858 3.25 12 3.25Z" fill="#FFF"></path> </g></svg>
+                            <svg class="text-center" width="50px" height="50px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12 3.25C12.4142 3.25 12.75 3.58579 12.75 4L12.75 18.1893L17.4697 13.4697C17.7626 13.1768 18.2374 13.1768 18.5303 13.4697C18.8232 13.7626 18.8232 14.2374 18.5303 14.5303L12.5303 20.5303C12.3897 20.671 12.1989 20.75 12 20.75C11.8011 20.75 11.6103 20.671 11.4697 20.5303L5.46967 14.5303C5.17678 14.2374 5.17678 13.7626 5.46967 13.4697C5.76256 13.1768 6.23744 13.1768 6.53033 13.4697L11.25 18.1893L11.25 4C11.25 3.58579 11.5858 3.25 12 3.25Z"
+                                        fill="#FFF"></path>
+                                </g>
+                            </svg>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
         <section>
-            <div id="aboutMe" class="w-full flex flex-col items-center pt-10 text-white text-center bg-[url('imgs/about_me_background.jpg')] bg-contain">
+            <div id="aboutMe"
+                class="w-full flex flex-col items-center pt-10 text-white text-center bg-[url('imgs/about_me_background.jpg')] bg-contain">
                 <h1 class="text-5xl pt-10 text-white text-center">About me</h1>
-                <p class="w-[550px] max-[550px]:w-96 max-[410px]:w-72 text-xl text-justify pt-10 pb-20"> Hello, I'm Wilson Eduardo, a web developer dedicated to creating visually 
-                    attractive and highly functional websites. With experience in Javascript, HTML5 and CSS3, I am exploring the 
-                    Next.js and Tailwind Frameworks for further innovation. My focus is on developing user-friendly websites 
-                    tailored to each client's unique needs, and I am always up to date with the latest industry trends. 
-                    I'm ready to collaborate and turn your ideas into digital reality. 
+                <p class="w-[550px] max-[550px]:w-96 max-[410px]:w-72 text-xl text-justify pt-10 pb-20"> Hi, I’m Wilson
+                    Eduardo, a dedicated web developer passionate about building modern, efficient, and user-friendly
+                    digital solutions. I specialize in crafting responsive interfaces with React, TypeScript, and
+                    Tailwind CSS, ensuring both performance and great user experience.
+                    </br>
+                    </br>
+
+                    On the backend, I work with Node.js and frameworks like Express and Fastify to create scalable APIs
+                    and robust application architectures. For data handling, I rely on tools such as Sequelize, Drizzle,
+                    and MySQL, making sure projects are built on solid and maintainable foundations.
+                    </br>
+                    </br>
+
+                    I’m always exploring new technologies and best practices, aiming to deliver solutions that combine
+                    clean design, scalability, and real-world impact. My goal is to transform ideas into digital
+                    products.
                 </p>
             </div>
         </section>
         <section>
             <h1 class="text-5xl pt-20 text-white text-center" id="skills">Skills</h1>
-            <div class="flex flex-wrap w-full text-white items-center justify-center p-20 gap-5 max-[500px]:gap-4 max-[500px]:p-10 max-[370px]:p-5 max-[330px]:p-2">
-                <div class="bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
-                    <div class="w-[100px] h-[100px] flex items-center justify-center">
-                        <img src="./imgs/js_logo.png" alt="Javascript logo" width="auto" height="auto">
+            <div class="flex w-full text-white items-center justify-center">
+                <div class="grid grid-cols-2 min-[500px]:grid-cols-3 min-[600px]:grid-cols-4 p-10 gap-5">
+                    <div class="w-32 bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
+                        <div class="w-[100px] h-[100px] flex items-center justify-center">
+                            <img src="./imgs/typescript_logo.png" alt="Typescript logo" width="90px" height="auto">
+                        </div>
+                        <p class="pt-2 text-center">Typescript</p>
                     </div>
-                    <p class="pt-2 text-center">Javascript</p>
-                </div>
-                <div class="bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
-                    <div class="w-[100px] h-[100px] flex items-center justify-center">
-                        <img src="./imgs/html5_logo.png" alt="HTML5 logo" width="80px" height="80px">
+                    <div class="w-32 bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
+                        <div class="w-[100px] h-[100px] flex items-center justify-center">
+                            <img src="./imgs/react_logo.png" alt="React logo" width="auto" height="auto">
+                        </div>
+                        <p class="pt-2 text-center">React</p>
                     </div>
-                    <p class="pt-2 text-center">HTML5</p>
-                </div>
-                <div class="bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
-                    <div class="w-[100px] h-[100px] flex items-center justify-center">
-                        <img src="./imgs/css3_logo.png" alt="CSS3 logo" width="auto" height="auto">
+                    <div class="w-32 bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
+                        <div class="w-[100px] h-[100px] flex items-center justify-center">
+                            <img src="./imgs/tailwind_css_logo.png" alt="Tailwind CSS logo" width="auto" height="auto">
+                        </div>
+                        <p class="pt-2 text-center">Tailwind CSS</p>
                     </div>
-                    <p class="pt-2 text-center">CSS3</p>
-                </div>
-                <div class="bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
-                    <div class="w-[100px] h-[100px] flex items-center justify-center">
-                        <img src="./imgs/next_js_logo_2.png" alt="Next JS logo" width="80px" height="80px">
+                    <div class="w-32 bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
+                        <div class="w-[100px] h-[100px] flex items-center justify-center">
+                            <img src="./imgs/javascript_logo.png" alt="Javascript logo" width="auto" height="auto">
+                        </div>
+                        <p class="pt-2 text-center">Javascript</p>
                     </div>
-                    <p class="pt-2 text-center">Next js</p>
-                </div>
-                <div class="bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
-                    <div class="w-[100px] h-[100px] flex items-center justify-center">
-                        <img src="./imgs/tailwind_css_logo.png" alt="Tailwind CSS logo" width="auto" height="auto">
+                    <div class="w-32 bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
+                        <div class="w-[100px] h-[100px] flex items-center justify-center">
+                            <img src="./imgs/html5_logo.png" alt="HTML5 logo" width="75px" height="75px">
+                        </div>
+                        <p class="pt-2 text-center">HTML5</p>
                     </div>
-                    <p class="pt-2 text-center">Tailwind CSS</p>
+
+                    <div class="w-32 bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
+                        <div class="w-[100px] h-[100px] flex items-center justify-center">
+                            <img src="./imgs/css3_logo.png" alt="CSS3 logo" width="auto" height="auto">
+                        </div>
+                        <p class="pt-2 text-center">CSS3</p>
+                    </div>
+                    <div class="w-32 bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
+                        <div class="w-[100px] h-[100px] flex items-center justify-center">
+                            <img src="./imgs/node_logo.png" alt="Node.js logo" width="80px" height="80px">
+                        </div>
+                        <p class="pt-2 text-center">Node.js</p>
+                    </div>
+                    <div class="w-32 bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
+                        <div class="w-[100px] h-[100px] flex items-center justify-center">
+                            <img src="./imgs/fastify_logo.svg" alt="Fastify logo" width="90px" height="auto">
+                        </div>
+                        <p class="pt-2 text-center">Fastify</p>
+                    </div>
+                    <div class="w-32 bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
+                        <div class="w-[100px] h-[100px] flex items-center justify-center">
+                            <img src="./imgs/express_logo.png" alt="Express.js logo" width="120px" height="auto">
+                        </div>
+                        <p class="pt-2 text-center">Express.js</p>
+                    </div>
+                    <div class="w-32 bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
+                        <div class="w-[100px] h-[100px] flex items-center justify-center">
+                            <img src="./imgs/sequelize_logo.svg" alt="Sequelize logo" width="90px" height="auto">
+                        </div>
+                        <p class="pt-2 text-center">Sequelize</p>
+                    </div>
+                    <div class="w-32 bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
+                        <div class="w-[100px] h-[100px] flex items-center justify-center">
+                            <img src="./imgs/drizzle_logo.svg"
+                                style="filter: brightness(0) saturate(100%) invert(79%) sepia(16%) saturate(1261%) hue-rotate(45deg) brightness(104%) contrast(91%);"
+                                alt="Drizzle logo" width="90px" height="auto">
+                        </div>
+                        <p class="pt-2 text-center">Drizzle</p>
+                    </div>
+                    <div class="w-32 bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
+                        <div class="w-[100px] h-[100px] flex items-center justify-center">
+                            <img src="./imgs/mysql_logo.png" alt="MySQL logo" width="90px" height="auto">
+                        </div>
+                        <p class="pt-2 text-center">MySQL</p>
+                    </div>
                 </div>
             </div>
         </section>
         <section>
             <h1 class="text-5xl py-10 text-white text-center" id="projects">Projects</h1>
             <div class="h-full w-full flex flex-wrap shrink items-center justify-center my-10 gap-10">
-                <div class="bg-[#121214] h-full w-[450px] border border-[#29292E] hover:border-[#905CF6] rounded-md flex flex-col items-center p-5 mx-2 gap-5">
-                    <img src="./imgs/flappy_bird_img.JPG" alt="project_flappy_bird_img" width="408px" class="max-[450px]:w-auto h-[225px] border border-[#29292E]">
-                    <span class="text-[#905CF6] font-semibold text-2xl">Flappy bird game</span>
-                    <span class="text-white text-base">Developed with Javascript, HTML5 and CSS3</span>
-                    <div class="flex flex-wrap justify-center gap-3 text-white my-3">
-                        <a href="https://github.com/wildevn/web-flappy-bird" class="bg-[#905CF6] py-2.5 max-[540px]:px-28 px-16 text-lg rounded-lg mx-2">Github</a>
-                        <a href="https://wvmediamaker.com.br/web-flappy-bird/" class="bg-[#905CF6] py-2.5 max-[540px]:px-[108px] px-16 text-lg rounded-lg mx-2">Preview</a>
+                <div
+                    class="bg-[#121214] h-full w-[450px] border border-[#29292E] hover:border-[#905CF6] rounded-md flex flex-col items-center p-5 mx-2 gap-5">
+                    <div class="w-[408px] h-[225px] flex items-center justify-center bg-black border border-[#29292E]">
+                        <img src="./imgs/node_logo.png" alt="project_global_rockets_marketplace_img" width="auto"
+                            class="h-[223px] bg-black">
                     </div>
-                </div>          
-                <div class="bg-[#121214] h-full w-[450px] border border-[#29292E] hover:border-[#905CF6] rounded-md flex flex-col items-center p-5 mx-2 gap-5">
-                    <img src="./imgs/whatsapp_theme_bot.jpg" alt="project_whatsapp_theme_bot_img" width="408px" class="h-[225px] border border-[#29292E]">
-                    <span class="text-[#905CF6] font-semibold text-2xl">Whatsapp theme bot</span>
-                    <span class="text-white text-base">Developed with Javascript, HTML5 and CSS3</span>
-                    <div class="flex flex-wrap justify-center gap-3 text-white my-3">
-                        <a href="https://github.com/wildevn/Whatsapp_theme_bot" class="bg-[#905CF6] py-2.5 max-[540px]:px-28 px-16 text-lg rounded-lg mx-2">Github</a>
-                        <a href="https://wvmediamaker.com.br/whatsapp_theme_bot" class="bg-[#905CF6] py-2.5 max-[540px]:px-[108px] px-16 text-lg rounded-lg mx-2">Preview</a>
-                    </div>
-                </div>          
-                <div class="bg-[#121214] h-full w-[450px] border border-[#29292E] hover:border-[#905CF6] rounded-md flex flex-col items-center p-5 mx-2 gap-5">
-                    <img src="./imgs/global_rockets.JPG" alt="project_global_rockets_marketplace_img" width="408px" class="h-[225px] border border-[#29292E]">
-                    <span class="text-[#905CF6] font-semibold text-2xl">Global Rockets marketplace</span>
-                    <span class="text-white text-base">Developed with Typescript, Next.js and Tailwind</span>
+                    <span class="text-[#905CF6] font-semibold text-2xl">Encontre na UFMS backend</span>
+                    <span class="text-white text-sm">College project designed to help students and visitors of UFMS to
+                        find places.</span>
+                    <span class="text-white text-xs opacity-50">Developed with Node.js, Typescript, Fastify, Drizzle and
+                        MySQL</span>
                     <div class="text-white my-3">
-                        <a href="https://github.com/wildevn/Global_Rockets" class="bg-[#905CF6] py-2.5 min-[540px]:px-44 px-28 text-lg rounded-lg mx-2">Github</a>
+                        <a href="https://github.com/wildevn/EncontreNaUfmsAPI" target="_blank"
+                            class="bg-[#905CF6] py-2.5 min-[540px]:px-44 px-28 text-lg rounded-lg mx-2">Github</a>
                     </div>
-                </div>          
+                </div>
+                <div
+                    class="bg-[#121214] h-full w-[450px] border border-[#29292E] hover:border-[#905CF6] rounded-md flex flex-col items-center p-5 mx-2 gap-5">
+                    <img src="./imgs/global_rockets.JPG" alt="project_global_rockets_marketplace_img" width="408px"
+                        class="h-[225px] border border-[#29292E]">
+                    <span class="text-[#905CF6] font-semibold text-2xl">Global Rockets marketplace</span>
+                    <span class="text-white text-sm">College project of a markeplace, inspired by big companies like
+                        Amazon, Mercado Livre, Americanas.</span>
+                    <span class="text-white text-xs opacity-50">Developed with Typescript, Next.js and Tailwind</span>
+                    <div class="text-white my-3">
+                        <a href="https://github.com/wildevn/Global_Rockets" target="_blank"
+                            class="bg-[#905CF6] py-2.5 min-[540px]:px-44 px-28 text-lg rounded-lg mx-2">Github</a>
+                    </div>
+                </div>
+                <div
+                    class="bg-[#121214] h-full w-[450px] border border-[#29292E] hover:border-[#905CF6] rounded-md flex flex-col items-center p-5 mx-2 gap-5">
+                    <img src="./imgs/whatsapp_theme_bot.jpg" alt="project_whatsapp_theme_bot_img" width="408px"
+                        class="h-[225px] border border-[#29292E]">
+                    <span class="text-[#905CF6] font-semibold text-2xl">Whatsapp theme bot</span>
+                    <span class="text-white text-sm">Page to simulate a conversation on Whatsapp, lead by a bot</span>
+                    <span class="text-white text-xs opacity-50">Developed with Javascript, HTML5 and CSS3</span>
+                    <div class="flex flex-wrap justify-center gap-3 text-white my-3">
+                        <a href="https://github.com/wildevn/Whatsapp_theme_bot" target="_blank"
+                            class="bg-[#905CF6] py-2.5 min-[540px]:px-44 px-28 text-lg rounded-lg mx-2">Github</a>
+                        <!-- <a href="https://wvmediamaker.com.br/whatsapp_theme_bot"
+                            class="bg-[#905CF6] py-2.5 max-[540px]:px-[108px] px-16 text-lg rounded-lg mx-2">Preview</a> -->
+                    </div>
+                </div>
+                <div
+                    class="bg-[#121214] h-full w-[450px] border border-[#29292E] hover:border-[#905CF6] rounded-md flex flex-col items-center p-5 mx-2 gap-5">
+                    <img src="./imgs/flappy_bird_img.JPG" alt="project_flappy_bird_img" width="408px"
+                        class="max-[450px]:w-auto h-[225px] border border-[#29292E]">
+                    <span class="text-[#905CF6] font-semibold text-2xl">Flappy bird</span>
+                    <span class="text-white text-xs opacity-50">Developed with Javascript, HTML5 and CSS3</span>
+                    <div class="flex flex-wrap justify-center gap-3 text-white my-3">
+                        <a href="https://github.com/wildevn/web-flappy-bird" target="_blank"
+                            class="bg-[#905CF6] py-2.5 min-[540px]:px-44 px-28 text-lg rounded-lg mx-2">Github</a>
+                        <!-- <a href="https://wvmediamaker.com.br/web-flappy-bird/"
+                            class="bg-[#905CF6] py-2.5 max-[540px]:px-[108px] px-16 text-lg rounded-lg mx-2">Preview</a> -->
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 </body>
+
 </html>
