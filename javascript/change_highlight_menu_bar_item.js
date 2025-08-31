@@ -42,6 +42,6 @@ const changeHighlightByScroll = () => {
   }
 }
 
-window.addEventListener("load", changeHighlightByClick);
+window.addEventListener("load", changeHighlightByScroll);
 window.addEventListener("hashchange", changeHighlightByClick);
 window.addEventListener("scroll", changeHighlightByScroll);
