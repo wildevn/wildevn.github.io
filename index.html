@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
     <nav
         class="fixed top-0 w-screen h-14 min-[500px]:h-10 z-50 bg-[#121214] border-b border-[#29292E] flex items-center justify-center">
         <ul
-            class="h-full w-full px-20 flex shrink text-[#F7F7FA] font-bold text-center min-[500px]:text-base text-sm text-nowrap">
+            class="h-full w-full px-5 sm:px-10 md:px-20 flex shrink text-[#F7F7FA] font-bold text-center min-[500px]:text-base text-sm text-nowrap">
             <li class="px-5 max-[450px]:px-2 py-2 m-auto hover:text-[#7731FF]" name="home">
                 <a href="#home">Home</a>
             </li>
@@ -34,8 +34,7 @@
     </nav>
 
     <main>
-        <div class="absolute top-0" id="home"></div>
-        <section>
+        <section id="home">
             <div
                 class="h-[100vh] w-full text-white flex flex-wrap items-center justify-center gap-10 mt-14 min-[500px]:mt-10 bg-[url('imgs/bio_background.jpg')] bg-cover">
                 <div class="flex w-[200px] h-[200px]">
@@ -112,9 +111,9 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="h-auto w-full flex justify-center">
+                    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
                         <a class="flex" href="#aboutMe">
-                            <svg class="text-center" width="50px" height="50px" viewBox="0 0 24 24" fill="none"
+                            <svg class="text-center" width="40px" height="40px" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -129,8 +128,8 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div id="aboutMe"
+        <section id="aboutMe">
+            <div 
                 class="w-full flex flex-col items-center pt-10 text-white text-center bg-[url('imgs/about_me_background.jpg')] bg-contain">
                 <h1 class="text-5xl pt-10 text-white text-center">About me</h1>
                 <p class="w-[550px] max-[550px]:w-96 max-[410px]:w-72 text-xl text-justify pt-10 pb-20"> Hi, I’m Wilson
@@ -152,8 +151,8 @@
                 </p>
             </div>
         </section>
-        <section>
-            <h1 class="text-5xl pt-20 text-white text-center" id="skills">Skills</h1>
+        <section id="skills">
+            <h1 class="text-5xl pt-20 text-white text-center">Skills</h1>
             <div class="flex w-full text-white items-center justify-center">
                 <div class="grid grid-cols-2 min-[500px]:grid-cols-3 min-[600px]:grid-cols-4 p-10 gap-5">
                     <div class="w-32 bg-[#121214] border border-[#29292E] hover:border-[#905CF6] p-3 rounded-xl">
@@ -234,12 +233,12 @@
                 </div>
             </div>
         </section>
-        <section>
-            <h1 class="text-5xl py-10 text-white text-center" id="projects">Projects</h1>
+        <section id="projects">
+            <h1 class="text-5xl py-10 text-white text-center">Projects</h1>
             <div class="h-full w-full flex flex-wrap shrink items-center justify-center my-10 gap-10">
                 <div
                     class="bg-[#121214] h-full w-[450px] border border-[#29292E] hover:border-[#905CF6] rounded-md flex flex-col items-center p-5 mx-2 gap-5">
-                    <div class="w-[408px] h-[225px] flex items-center justify-center bg-black border border-[#29292E]">
+                    <div class="w-full sm:w-[408px] h-[225px] flex items-center justify-center bg-black border border-[#29292E]">
                         <img src="./imgs/dentist_clinic_landing_page.PNG" alt="dentist_clinic_landing_page_img" width="auto"
                             class="h-[223px] bg-black">
                     </div>
@@ -256,7 +255,7 @@
                 </div>
                 <div
                     class="bg-[#121214] h-full w-[450px] border border-[#29292E] hover:border-[#905CF6] rounded-md flex flex-col items-center p-5 mx-2 gap-5">
-                    <div class="w-[408px] h-[225px] flex items-center justify-center bg-black border border-[#29292E]">
+                    <div class="w-full sm:w-[408px] h-[225px] flex items-center justify-center bg-black border border-[#29292E]">
                         <img src="./imgs/node_logo.png" alt="project_global_rockets_marketplace_img" width="auto"
                             class="h-[223px] bg-black">
                     </div>
